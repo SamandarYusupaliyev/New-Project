@@ -1,0 +1,27 @@
+.header {
+  height: 400px;
+  background-image: url("../images/header-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.header__wrapper {
+  background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  margin-bottom: 320px;
+}
+.header__item {
+  padding-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sitenav__list {
+  display: flex;
+  gap: 32px;
+}
+
+.sitenav__link {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
